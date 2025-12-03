@@ -174,17 +174,17 @@ class Benchmark(conbenchlegacy.runner.Benchmark):
 
     def execute_command(self, command):
         try:
-            print("voltrondata/labs-benchmarks child process:", command)
+            print("arctosalliance/labs-benchmarks child process:", command)
             result = subprocess.run(command, capture_output=True, check=True)
         except subprocess.CalledProcessError as e:
-            print("voltrondata/labs-benchmarks child process was unsuccessful.")
+            print("arctosalliance/labs-benchmarks child process was unsuccessful.")
             stdout = e.stdout.decode() if e.stdout else ""
             stderr = e.stderr.decode() if e.stderr else ""
             print("stdout:\n", stdout)
             print("stderr:\n", stderr)
             raise e
 
-        print("voltrondata/labs-benchmarks child process was successful.")
+        print("arctosalliance/labs-benchmarks child process was successful.")
         stdout = result.stdout.decode() if result.stdout else ""
         stderr = result.stderr.decode() if result.stderr else ""
         print("stdout:\n", stdout)

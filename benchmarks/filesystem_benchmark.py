@@ -15,8 +15,8 @@ class GetFileInfoBenchmark(Benchmark):
     name = "recursive-get-file-info"
     valid_cases = (
         ["dataset_uri"],
-        ["s3://ursa-qa/wide-partition"],
-        ["s3://ursa-qa/flat-partition"],
+        ["s3://apache-arrow-qa/wide-partition"],
+        ["s3://apache-arrow-qa/flat-partition"],
     )
     flags = {"cloud": True}
 

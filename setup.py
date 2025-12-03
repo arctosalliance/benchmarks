@@ -37,7 +37,7 @@ setuptools.setup(
     python_requires=">=3.8",
     maintainer="Apache Arrow Developers",
     maintainer_email="dev@arrow.apache.org",
-    url="https://github.com/voltrondata-labs/benchmarks",
+    url="https://github.com/arctosalliance/benchmarks",
     install_requires=base_requirements,
     extras_require={"dev": dev_requirements},
 )

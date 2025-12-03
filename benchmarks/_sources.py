@@ -149,7 +149,7 @@ STORE = {
     },
     "fanniemae_2016Q4": {
         "path": _source("fanniemae_2016Q4.csv.gz"),
-        "source": "https://ursa-qa.s3.amazonaws.com/fanniemae_loanperf/2016Q4.csv.gz",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/fanniemae_loanperf/2016Q4.csv.gz",
         "sep": "|",
         "header": None,
         "schema": fanniemae_schema,
@@ -157,7 +157,7 @@ STORE = {
     },
     "nyctaxi_2010-01": {
         "path": _source("nyctaxi_2010-01.csv.gz"),
-        "source": "https://ursa-qa.s3.amazonaws.com/nyctaxi/yellow_tripdata_2010-01.csv.gz",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/nyctaxi/yellow_tripdata_2010-01.csv.gz",
         "sep": ",",
         "header": 0,
         "schema": nyctaxi_schema,
@@ -165,94 +165,94 @@ STORE = {
     },
     "chi_traffic_2020_Q1": {
         "path": _source("chi_traffic_2020_Q1.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/chitraffic/chi_traffic_2020_Q1.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/chitraffic/chi_traffic_2020_Q1.parquet",
         "format": SourceFormat.PARQUET,
     },
     "type_strings": {
         "path": _source("type_strings.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/single_types/type_strings.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/single_types/type_strings.parquet",
         "format": SourceFormat.PARQUET,
     },
     "type_dict": {
         "path": _source("type_dict.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/single_types/type_dict.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/single_types/type_dict.parquet",
         "format": SourceFormat.PARQUET,
     },
     "type_integers": {
         "path": _source("type_integers.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/single_types/type_integers.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/single_types/type_integers.parquet",
         "format": SourceFormat.PARQUET,
     },
     "type_floats": {
         "path": _source("type_floats.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/single_types/type_floats.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/single_types/type_floats.parquet",
         "format": SourceFormat.PARQUET,
     },
     "type_nested": {
         "path": _source("type_nested.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/single_types/type_nested.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/single_types/type_nested.parquet",
         "format": SourceFormat.PARQUET,
     },
     "type_simple_features": {
         "path": _source("type_simple_features.parquet"),
-        "source": "https://ursa-qa.s3.amazonaws.com/single_types/type_simple_features.parquet",
+        "source": "https://apache-arrow-qa.s3.amazonaws.com/single_types/type_simple_features.parquet",
         "format": SourceFormat.PARQUET,
     },
     "nyctaxi_multi_parquet_s3": {
         "download": False,
         "paths": [
-            "ursa-labs-taxi-data/2009/01/data.parquet",
-            "ursa-labs-taxi-data/2009/02/data.parquet",
-            "ursa-labs-taxi-data/2009/03/data.parquet",
-            "ursa-labs-taxi-data/2009/04/data.parquet",
+            "apache-arrow-taxi-data/2009/01/data.parquet",
+            "apache-arrow-taxi-data/2009/02/data.parquet",
+            "apache-arrow-taxi-data/2009/03/data.parquet",
+            "apache-arrow-taxi-data/2009/04/data.parquet",
         ],
-        "region": "us-east-2",
+        "region": "us-east-1",
         "schema": nyctaxi_schema,
         "format": SourceFormat.PARQUET,
     },
     "nyctaxi_multi_ipc_s3": {
         "download": False,
         "paths": [
-            "ursa-labs-taxi-data-ipc/2013/01/data.feather",
-            "ursa-labs-taxi-data-ipc/2013/02/data.feather",
-            "ursa-labs-taxi-data-ipc/2013/03/data.feather",
-            "ursa-labs-taxi-data-ipc/2013/04/data.feather",
+            "apache-arrow-taxi-data-ipc/2013/01/data.feather",
+            "apache-arrow-taxi-data-ipc/2013/02/data.feather",
+            "apache-arrow-taxi-data-ipc/2013/03/data.feather",
+            "apache-arrow-taxi-data-ipc/2013/04/data.feather",
         ],
-        "region": "us-east-2",
+        "region": "us-east-1",
         "schema": nyctaxi_schema,
         "format": SourceFormat.FEATHER,
     },
     "nyctaxi_multi_parquet_s3_sample": {
         "download": False,
         "paths": [
-            "ursa-labs-taxi-data-sample/2009/02/data.parquet",
-            "ursa-labs-taxi-data-sample/2009/01/data.parquet",
+            "apache-arrow-taxi-data-sample/2009/02/data.parquet",
+            "apache-arrow-taxi-data-sample/2009/01/data.parquet",
         ],
-        "region": "us-east-2",
+        "region": "us-east-1",
         "schema": nyctaxi_schema,
         "format": SourceFormat.PARQUET,
     },
     "nyctaxi_multi_ipc_s3_sample": {
         "download": False,
         "paths": [
-            "ursa-labs-taxi-data-sample-ipc/2009/02/data.feather",
-            "ursa-labs-taxi-data-sample-ipc/2009/01/data.feather",
+            "apache-arrow-taxi-data-sample-ipc/2009/02/data.feather",
+            "apache-arrow-taxi-data-sample-ipc/2009/01/data.feather",
         ],
-        "region": "us-east-2",
+        "region": "us-east-1",
         "schema": nyctaxi_schema,
         "format": SourceFormat.FEATHER,
     },
     "nyctaxi_multi_parquet_s3_repartitioned": {
         "download": False,
         "paths": [
-            f"ursa-labs-taxi-data-repartitioned-10k/{year}/{month:02}/{part:04}/data.parquet"
+            f"apache-arrow-taxi-data-repartitioned-10k/{year}/{month:02}/{part:04}/data.parquet"
             for year in range(2009, 2020)
             for month in range(1, 13)
             for part in range(101)
             if not (year == 2019 and month > 6)  # Data ends in 2019/06
             and not (year == 2010 and month == 3)  # Data is missing in 2010/03
         ],
-        "region": "us-east-2",
+        "region": "us-east-1",
         "schema": nyctaxi_schema,
         "format": SourceFormat.PARQUET,
     },
@@ -286,7 +286,7 @@ class Source:
         ├── fanniemae_sample.zstd.feather
         ├── nyctaxi_2010-01.snappy.parquet
         └── nyctaxi_sample.snappy.parquet
-    └── ursa-labs-taxi-data-sample
+    └── apache-arrow-taxi-data-sample
         └── 2009
             ├── 01
             │   └── data.parquet
