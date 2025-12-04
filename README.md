@@ -394,9 +394,9 @@ Options:
 
 More simple benchmark examples that have minimal scaffolding:
 
-* [csv_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/csv_benchmark.py)
-* [dataset_filter_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/dataset_filter_benchmark.py)
-* [dataset_select_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/dataset_select_benchmark.py)
+* [csv_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/csv_benchmark.py)
+* [dataset_filter_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/dataset_filter_benchmark.py)
+* [dataset_select_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/dataset_select_benchmark.py)
 
 
 ### Example external benchmarks
@@ -503,11 +503,11 @@ Options:
 
 More external benchmark examples that record C++, Java, and R benchmark results:
 
-* [cpp_micro_benchmarks.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/cpp_micro_benchmarks.py)
-* [dataframe_to_table_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/dataframe_to_table_benchmark.py)
-* [file_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/file_benchmark.py)
-* [java_micro_benchmarks.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/java_micro_benchmarks.py)
-* [partitioned_dataset_filter_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/partitioned_dataset_filter_benchmark.py)
+* [cpp_micro_benchmarks.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/cpp_micro_benchmarks.py)
+* [dataframe_to_table_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/dataframe_to_table_benchmark.py)
+* [file_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/file_benchmark.py)
+* [java_micro_benchmarks.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/java_micro_benchmarks.py)
+* [partitioned_dataset_filter_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/partitioned_dataset_filter_benchmark.py)
 
 
 ### Example case benchmarks
@@ -579,8 +579,8 @@ Options:
 
 More case benchmark examples:
 
-* [dataset_read_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/dataset_read_benchmark.py)
-* [dataset_selectivity_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/dataset_selectivity_benchmark.py)
-* [file_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/file_benchmark.py)
-* [partitioned_dataset_filter_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/partitioned_dataset_filter_benchmark.py)
-* [wide_dataframe_benchmark.py](https://github.com/apache-arrow/benchmarks/blob/main/benchmarks/wide_dataframe_benchmark.py)
+* [dataset_read_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/dataset_read_benchmark.py)
+* [dataset_selectivity_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/dataset_selectivity_benchmark.py)
+* [file_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/file_benchmark.py)
+* [partitioned_dataset_filter_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/partitioned_dataset_filter_benchmark.py)
+* [wide_dataframe_benchmark.py](https://github.com/arctosalliance/benchmarks/blob/main/benchmarks/wide_dataframe_benchmark.py)

@@ -13,14 +13,14 @@ Usage: conbench recursive-get-file-info [OPTIONS]
   For each benchmark option, the first option value is the default.
 
   Valid benchmark combinations:
-  --dataset-uri=s3://apache-arrow-qa/wide-partition
-  --dataset-uri=s3://apache-arrow-qa/flat-partition
+  --dataset-uri=s3://arrow-datasets/qa/wide-partition
+  --dataset-uri=s3://arrow-datasets/qa/flat-partition
 
   To run all combinations:
   $ conbench recursive-get-file-info --all=true
 
 Options:
-  --dataset-uri [s3://apache-arrow-qa/flat-partition|s3://apache-arrow-qa/wide-partition]
+  --dataset-uri [s3://arrow-datasets/qa/flat-partition|s3://arrow-datasets/qa/wide-partition]
   --all BOOLEAN                   [default: false]
   --cpu-count INTEGER
   --iterations INTEGER            [default: 1]

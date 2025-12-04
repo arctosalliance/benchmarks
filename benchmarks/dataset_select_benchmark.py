@@ -17,7 +17,7 @@ class DatasetSelectBenchmark(_benchmark.Benchmark):
     flags = {"cloud": True}
 
     def run(self, source, **kwargs):
-        path_prefix = "apache-arrow-taxi-data-repartitioned-10k/"
+        path_prefix = "arrow-datasets/taxi-data-repartitioned-10k/"
         partitioning = pyarrow.dataset.DirectoryPartitioning.discover(
             field_names=["year", "month", "part"],
             infer_dictionary=True,
